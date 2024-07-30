@@ -18,7 +18,7 @@ Welcome to the classic Hangman game implemented in Python. This program allows y
 
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/0x2V369/hangman-game.git
+    git clone https://github.com/0x2V369/hangman.git
     cd hangman-game
     ```
 
