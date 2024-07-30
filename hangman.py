@@ -1,5 +1,4 @@
 import random
-import os
 
 # Hangman pictures for UI
 HANGMAN_PICTURES = ['''
@@ -58,6 +57,7 @@ WORDS = ['rainbow', 'computer', 'science', 'programming',
          'reverse', 'water', 'board', 'geeks', 'coconut', 'enlightened',
          'snowstorm', 'python', 'solidity']
 
+
 def choose_word(words):
     return random.choice(words)
 
@@ -79,7 +79,6 @@ lives_used = 0
 chosen_word = choose_word(WORDS)
 letters_guessed_right = ["_" for _ in range(len(chosen_word))]
 letters_guessed_wrong = []
-
 
 print("This is the word that you gotta guess:")
 display_current_progress(letters_guessed_right)
