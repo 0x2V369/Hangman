@@ -73,7 +73,7 @@ def check_letter_in_word(chosen_word, user_input, letters_guessed_right):
             letters_guessed_right[index] = user_input
 
 
-print("Welcome to the game of Hangman, I wish you good luck")
+print("Welcome to the game of Hangman, I wish you good luck!")
 
 lives_used = 0
 chosen_word = choose_word(WORDS)
